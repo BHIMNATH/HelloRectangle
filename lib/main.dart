@@ -20,4 +20,16 @@ class HelloRectangle extends StatelessWidget {
     );
   }
 }
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Hello Rectangle"),
+        ),
+        body: HelloRectangle(),
+      ),
+    ),
+  );
 }
